@@ -75,6 +75,7 @@ const queryCpeData = async (uuid, sysType) => {
 }
 const initData = async () => {
   let { id, sysType } = props.centerNode
+  console.log('[ sysType ]-78', sysType)
   let cpeList = await queryCpeData(id, sysType);
   let { cpeNodes, siteCombos, cpeEdges } = dealElement(cpeList, props.centerNode);
   graphEle.cpeNodes = cpeNodes;
@@ -142,7 +143,7 @@ const cpeNodeEdgeHandler = (cpeList, siteList, centerNode) => {
     //当点击的CPE所处站点和上一级HUB所处站点相同时，CPE节点画在HUB节点的左侧
     let cpexy = {}
     if (nodeLevel.value) {
-      let sameSite = cpeNodes.value.find(({ comboId }) => cpe.siteUuid === comboId);
+      let sameSite = graphEle.cpeNodes.find(({ comboId }) => cpe.siteUuid === comboId);
       if (sameSite && Math.abs(sameSite?.y - centerNode.y) <= 30) {
         cpexy = { x: sameSite.x, y: sameSite.y - 40 }
       } else if (sameSite) {

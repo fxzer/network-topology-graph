@@ -2,8 +2,7 @@ export default [
  
   {
     "uuid": "a5777c38580a42e0a367815bd1c2c111",
-    "esn": "0cd7d4940000",
-    "name": "CPE-11",
+    "name": "HUB-CPE-11",
     "siteUuid": "7472d9ad68744d02a8d02374f8dca111",
     "siteName": "上海站点01",
     "cpePriority": "High",
@@ -16,7 +15,6 @@ export default [
   }, 
   {
     "uuid": "a5777c38580a42e0a367815bd1c2c222",
-    "esn": "0cd7d4940000",
     "name": "CPE-22",
     "siteUuid": "7472d9ad68744d02a8d02374f8dca222",
     "siteName": "上海站点02",
@@ -31,7 +29,6 @@ export default [
   //VPE3
   {
     "uuid": "a5777c38580a42e0a367815bd1c2c31f",
-    "esn": "0cd7d4940000",
     "name": "CPE-4",
     "siteUuid": "7472d9ad68744d02a8d02374f8dcadc7",
     "siteName": "串接站点-2",
@@ -45,7 +42,6 @@ export default [
   },
   {
     "uuid": "ed569e6458674aebbb5ba98acaa8da16",
-    "esn": "0cade3550000",
     "name": "VCPE",
     "siteUuid": "f8bb9526806b49419fbb1fd2f639c12c",
     "siteName": "VCPE-3",
@@ -59,7 +55,6 @@ export default [
   },
   {
     "uuid": "f53b1c4faffd4606954a7db9cea2a2e9",
-    "esn": "0c3859100000",
     "name": "CPE-3",
     "siteUuid": "7432286bb14a4a8cbc8ddc096590e44a",
     "siteName": "HA站点-5",
@@ -67,13 +62,12 @@ export default [
     "cpeRole": "Single",
     "linkRole": "Slave",
     "linkType": "Vpn",
-    "hub": false,
+    "hub": true,
     "linkStatus": "Normal",
     "vpeUuid": "e6ccf850da8b4740a2e04588ade03c08"
   },
   {
     "uuid": "f53b1c4faffd4606954a7db9cea2a1e1",
-    "esn": "0c3859100001",
     "name": "CPE-3",
     "siteUuid": "7432286bb14a4a8cbc8ddc096590e441",
     "siteName": "HA站点-7",
@@ -88,7 +82,6 @@ export default [
   //VPE4
   {
     "uuid": "f53b1c4faffd4606954a7db9cea41111",
-    "esn": "0c3859104111",
     "name": "CPE-1",
     "siteUuid": "7432286bb14a4a8cbc8ddc096594111a",
     "siteName": "深圳站点-01",
@@ -102,21 +95,19 @@ export default [
   },
   {
     "uuid": "f53b1c4faffd4606954a7db9cea41222",
-    "esn": "0c3859104222",
-    "name": "CPE-2",
+    "name": "HUB-CPE-2",
     "siteUuid": "7432286bb14a4a8cbc8ddc096594222a",
     "siteName": "深圳站点-02",
     "cpePriority": "High",
     "cpeRole": "Single",
     "linkRole": "Master",
     "linkType": "Vpn",
-    "hub": false,
+    "hub": true,
     "linkStatus": "Normal",
     "vpeUuid": "1fb8b24e4d3d4cfebf5feb345bf3aaf0"
   },
   {
     "uuid": "f53b1c4faffd4606954a7db9cea41333",
-    "esn": "0c3859104333",
     "name": "CPE-3",
     "siteUuid": "7432286bb14a4a8cbc8ddc096594333a",
     "siteName": "深圳站点-03",
@@ -130,7 +121,6 @@ export default [
   },
   {
     "uuid": "f53b1c4faffd4606954a7db9cea41444",
-    "esn": "0c3859104444",
     "name": "CPE-4",
     "siteUuid": "7432286bb14a4a8cbc8ddc096594444a",
     "siteName": "深圳站点-04",
@@ -144,21 +134,19 @@ export default [
   },
   {
     "uuid": "f53b1c4faffd4606954a7db9cea41555",
-    "esn": "0c3859104555",
-    "name": "CPE-5",
+    "name": "HUB-CPE-5",
     "siteUuid": "7432286bb14a4a8cbc8ddc096594555a",
     "siteName": "深圳站点-05",
     "cpePriority": "High",
     "cpeRole": "Single",
     "linkRole": "Master",
     "linkType": "Vpn",
-    "hub": false,
+    "hub": true,
     "linkStatus": "Normal",
     "vpeUuid": "1fb8b24e4d3d4cfebf5feb345bf3aaf0"
   },
   {
     "uuid": "f53b1c4faffd4606954a7db9cea41666",
-    "esn": "0c3859104666",
     "name": "CPE-6",
     "siteUuid": "7432286bb14a4a8cbc8ddc096594555a",
     "siteName": "深圳站点-05",
@@ -173,7 +161,6 @@ export default [
   //VPE5
   {
     "uuid": "f5381c4faffd4606954a7db9cea41333",
-    "esn": "0c3859104333",
     "name": "CPE-13",
     "siteUuid": "7432286bb14a4a8cbc8ddc096594333a",
     "siteName": "香港站点-1",
@@ -187,7 +174,6 @@ export default [
   },
   {
     "uuid": "f5381c4faffd4606954a7db9cea41444",
-    "esn": "0c3859104444",
     "name": "CPE-14",
     "siteUuid": "7432286bb14a4a8cbc8ddc096594333a",
     "siteName": "香港站点-1",
@@ -201,7 +187,6 @@ export default [
   },
   {
     "uuid": "f5381c4faffd4606954a7db9cea41111",
-    "esn": "0c8859104111",
     "name": "CPE-81",
     "siteUuid": "7432286bb14a4a8cbc8ddc096594111a",
     "siteName": "香港站点-8",
@@ -215,7 +200,6 @@ export default [
   },
   {
     "uuid": "f5381c4faffd4606954a7db9cea41222",
-    "esn": "0c3859104222",
     "name": "CPE-82",
     "siteUuid": "7432286bb14a4a8cbc8ddc096594111a",
     "siteName": "香港站点-8",
@@ -230,7 +214,6 @@ export default [
  
   {
     "uuid": "f5381c4faffd4606954a7db9cea41555",
-    "esn": "0c3859104555",
     "name": "CPE-51",
     "siteUuid": "7432286bb14a4a8cbc8ddc096594555a",
     "siteName": "香港站点-05",
@@ -244,7 +227,6 @@ export default [
   },
   {
     "uuid": "f5381c4faffd4606954a7db9cea41666",
-    "esn": "0c3859104666",
     "name": "CPE-52",
     "siteUuid": "7432286bb14a4a8cbc8ddc096594555a",
     "siteName": "香港站点-05",
@@ -258,7 +240,6 @@ export default [
   },
   {
     "uuid": "f5881c4faffd4606954a7db9cea41222",
-    "esn": "0c3859104222",
     "name": "CPE-71",
     "siteUuid": "7432286bb14a4a8cbc8ddc096594222a",
     "siteName": "香港站点-7",
@@ -272,7 +253,6 @@ export default [
   },
   {
     "uuid": "f5881c4faffd4606954a7db9cea41333",
-    "esn": "0c3859104333",
     "name": "CPE-61",
     "siteUuid": "7439986bb14a4a8cbc8ddc096594333a",
     "siteName": "香港站点-6",
@@ -286,7 +266,6 @@ export default [
   },
   {
     "uuid": "f5881c4faffd4606954a7db9cea41444",
-    "esn": "0c3859104444",
     "name": "CPE-4",
     "siteUuid": "7439986bb14a4a8cbc8ddc096594444a",
     "siteName": "香港站点-04",
@@ -300,7 +279,6 @@ export default [
   },
   {
     "uuid": "f5881c4faffd4606954a7db9cea41555",
-    "esn": "0c3859104555",
     "name": "CPE-5",
     "siteUuid": "7439986bb14a4a8cbc8ddc096594555a",
     "siteName": "香港站点-05",
@@ -314,7 +292,6 @@ export default [
   },
   {
     "uuid": "f5881c4faffd4606954a7db9cea41666",
-    "esn": "0c3859104666",
     "name": "CPE-6",
     "siteUuid": "7439986bb14a4a8cbc8ddc096594555a",
     "siteName": "香港站点-05",
@@ -328,7 +305,6 @@ export default [
   },
   {
     "uuid": "f5881c4faffd4606954a7db9cea41622",
-    "esn": "0c3859104622",
     "name": "CPE-6",
     "siteUuid": "7439986bb14a4a8cbc8ddc096594222a",
     "siteName": "香港站点-02",
@@ -343,7 +319,6 @@ export default [
   //VPE6
   {
     "uuid": "f5881c4faffd4606954a7db9cea41555",
-    "esn": "0c3859104555",
     "name": "CPE-5",
     "siteUuid": "7439986bb14a4a8cbc8ddc096594555a",
     "siteName": "苏州站点-08",
@@ -357,7 +332,6 @@ export default [
   },
   {
     "uuid": "f5881c4faffd4606954a7db9cea41666",
-    "esn": "0c3859104666",
     "name": "CPE-6",
     "siteUuid": "7439986bb14a4a8cbc8ddc096594566a",
     "siteName": "苏州站点-07",
@@ -371,7 +345,6 @@ export default [
   },
   {
     "uuid": "f5881c4faffd4606954a7db9cea41622",
-    "esn": "0c3859104622",
     "name": "CPE-6",
     "siteUuid": "7439986bb14a4a8cbc8ddc096594222a",
     "siteName": "苏州站点-06",
@@ -382,5 +355,125 @@ export default [
     "hub": false,
     "linkStatus": "Normal",
     "vpeUuid": "d07742af3d7e42fcb8afc96720b8236b"
+  },
+
+  //HUB-CPES
+  {
+    "uuid": "a5777c38580a42e0a367815bd1c2c31f",
+    "name": "CPE-124",
+    "siteUuid": "1112d9ad68744d02a8d02374f8dcadc7",
+    "siteName": "HUB站点-14",
+    "cpePriority": "High",
+    "cpeRole": "Single",
+    "linkRole": "Master",
+    "linkType": "Vpn",
+    "hub": false,
+    "linkStatus": "Normal",
+    "hubUuid":"a5777c38580a42e0a367815bd1c2c111"
+  },
+  {
+    "uuid": "a5888c38580a42e0a367815bd1c2c31f",
+    "name": "CPE-412",
+    "siteUuid": "1112d9ad68744d02a8d02374f8dcadc7",
+    "siteName": "HUB站点-14",
+    "cpePriority": "Low",
+    "cpeRole": "Single",
+    "linkRole": "Slave",
+    "linkType": "Vpn",
+    "hub": false,
+    "linkStatus": "Abnormal",
+    "hubUuid":"a5777c38580a42e0a367815bd1c2c111"
+  },
+  {
+    "uuid": "a5999c38580a42e0a367815bd1c2c31f",
+    "name": "CPE-142",
+    "siteUuid": "1232d9ad68744d02a8d02374f8dcadc7",
+    "siteName": "HUB站点-12",
+    "cpePriority": "High",
+    "cpeRole": "Single",
+    "linkRole": "Master",
+    "linkType": "Mstp",
+    "hub": false,
+    "linkStatus": "Normal",
+    "hubUuid":"a5777c38580a42e0a367815bd1c2c111"
+  },
+  {
+    "uuid": "a5000c38580a42e0a367815bd1c2c31f",
+    "name": "CPE-111",
+    "siteUuid": "1322d9ad68744d02a8d02374f8dcadc7",
+    "siteName": "HUB站点-11",
+    "cpePriority": "Low",
+    "cpeRole": "Single",
+    "linkRole": "Master",
+    "linkType": "Mstp",
+    "hub": false,
+    "linkStatus": "Normal",
+    "hubUuid":"a5777c38580a42e0a367815bd1c2c111"
+  },
+  // 
+  {
+    "uuid": "a5777c38580a42e0a367815bd1c2c31f",
+    "name": "CPE-124",
+    "siteUuid": "1112d9ad68744d02a8d02374f8dcadc7",
+    "siteName": "HUB站点-14",
+    "cpePriority": "High",
+    "cpeRole": "Single",
+    "linkRole": "Master",
+    "linkType": "Vpn",
+    "hub": false,
+    "linkStatus": "Normal",
+    "hubUuid":"f53b1c4faffd4606954a7db9cea41222"
+  },
+  {
+    "uuid": "a5888c38580a42e0a367815bd1c2c31f",
+    "name": "CPE-412",
+    "siteUuid": "1112d9ad68744d02a8d02374f8dcadc7",
+    "siteName": "HUB站点-14",
+    "cpePriority": "Low",
+    "cpeRole": "Single",
+    "linkRole": "Slave",
+    "linkType": "Vpn",
+    "hub": false,
+    "linkStatus": "Abnormal",
+    "hubUuid":"f53b1c4faffd4606954a7db9cea41222"
+  },
+  {
+    "uuid": "a5999c38580a42e0a367815bd1c2c31f",
+    "name": "CPE-142",
+    "siteUuid": "1232d9ad68744d02a8d02374f8dcadc7",
+    "siteName": "HUB站点-12",
+    "cpePriority": "High",
+    "cpeRole": "Single",
+    "linkRole": "Master",
+    "linkType": "Mstp",
+    "hub": false,
+    "linkStatus": "Normal",
+    "hubUuid":"f53b1c4faffd4606954a7db9cea41222"
+  },
+  {
+    "uuid": "a5000c38580a42e0a367815bd1c2c31f",
+    "name": "CPE-111",
+    "siteUuid": "1322d9ad68744d02a8d02374f8dcadc7",
+    "siteName": "HUB站点-11",
+    "cpePriority": "Low",
+    "cpeRole": "Single",
+    "linkRole": "Master",
+    "linkType": "Mstp",
+    "hub": false,
+    "linkStatus": "Normal",
+    "hubUuid":"f53b1c4faffd4606954a7db9cea41222"
+  },
+  {
+    "uuid": "a5050c38580a42e0a367815bd1c2c31f",
+    "name": "CPE-155",
+    "siteUuid": "1344d9ad68744d02a8d02374f8dcadc7",
+    "siteName": "HUB站点-55",
+    "cpePriority": "Low",
+    "cpeRole": "Single",
+    "linkRole": "Master",
+    "linkType": "Mstp",
+    "hub": false,
+    "linkStatus": "Normal",
+    "hubUuid":"f53b1c4faffd4606954a7db9cea41222"
   },
 ]

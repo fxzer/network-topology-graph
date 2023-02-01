@@ -2,6 +2,7 @@
   <div id="topoChart" :class="noDataClass"></div>
   <TopoDialog v-model:visible="topoVisible" :centerNode="centerNode" />
   <TopoLegend/>
+  <a href="../../../native-model-src/index.html" class="native-link">原生JS模型版</a>
 </template>
 
 <script setup lang='ts'>
@@ -382,5 +383,11 @@ onBeforeUnmount(() =>{
   color: #999;
   font-weight: 500;
   opacity: .6;
+}
+.native-link{
+  position: absolute;
+  bottom: 10px;
+  left:10px;
+  background-color: #fff;
 }
 </style>

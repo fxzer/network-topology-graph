@@ -48,70 +48,99 @@ export default [
               "connectVpe": true,
               "hubs": [
                 {
-                  "uuid": "1f0d2a3d1a324e148ab41648c59a611a",
-                  "name": "CPE-2",
-                  "RR": true,
+                  "uuid": "a5777c38580a42e0a367815bd1c2c111",
+                  "name": "HUB-CPE-11",
+                  "linkCount": 3
+                },
+                {
+                  "uuid": "f53b1c4faffd4606954a7db9cea2a2e9",
+                  "name": "CPE-3",
+                  "linkCount": 0
+                },
+                {
+                  "uuid": "f53b1c4faffd4606954a7db9cea41222",
+                  "name": "HUB-CPE-2",
                   "linkCount": 0
                 }
               ],
               "hubLinks": []
             },
             {
-              "uuid": "6f3ac044b6cb4750b62a4ef0d1d5214b",
+              "uuid": "6f3ac044b6cb4750b62a4ef0d1d52111",
               "name": "HUB网络二",
               "connectVpe": true,
               "hubs": [
                 {
-                  "uuid": "1f0d2a3d1a324e148ab41648c59a622a",
-                  "name": "CPE-2",
-                  "RR": true,
+                  "uuid": "f53b1c4faffd4606954a7db9cea41555",
+                  "name": "HUB-H",
                   "linkCount": 0
-                }
+                },
+                {
+                  "uuid": "f13b1c4faffd4606954a7db9cea41555",
+                  "name": "HUB-A",
+                  "linkCount": 0
+                },
+                {
+                  "uuid": "f23b1c4faffd4606954a7db9cea41555",
+                  "name": "HUB-B",
+                  "linkCount": 0
+                },
+                {
+                  "uuid": "f33b1c4faffd4606954a7db9cea41555",
+                  "name": "HUB-C",
+                  "linkCount": 0
+                },
+                {
+                  "uuid": "f73b1c4faffd4606954a7db9cea41555",
+                  "name": "HUB-D",
+                  "linkCount": 0
+                },
               ],
               "hubLinks": []
             },
             {
-              "uuid": "6f3ac044b6cb4750b62a4ef0d1d5215b",
+              "uuid": "913ac044b6cb4750b62a4ef0d1d52111",
               "name": "HUB网络三",
               "connectVpe": true,
               "hubs": [
                 {
-                  "uuid": "1f0d2a3d1a324e148ab41648c59a333a",
-                  "name": "CPE-2",
-                  "RR": true,
+                  "uuid": "f53b194faffd4606954a7db9cea41555",
+                  "name": "HUB-H",
                   "linkCount": 0
-                }
+                },
+                {
+                  "uuid": "f13b1c9faffd4606954a7db9cea41555",
+                  "name": "HUB-A",
+                  "linkCount": 0
+                },
+                {
+                  "uuid": "f23b1c4faffd4606954a7db9cea41955",
+                  "name": "HUB-B",
+                  "linkCount": 0
+                },
+                {
+                  "uuid": "f33b1c49affd4606954a7db9cea41555",
+                  "name": "HUB-C",
+                  "linkCount": 0
+                },
+                {
+                  "uuid": "f73b1c4f9ffd4606954a7db9cea41555",
+                  "name": "HUB-D",
+                  "linkCount": 0
+                },
+                {
+                  "uuid": "f73b1c419ffd4606954a7db9cea41555",
+                  "name": "HUB-G",
+                  "linkCount": 0
+                },
+                {
+                  "uuid": "f73b1c4f1ffd4606954a7db9cea41555",
+                  "name": "HUB-Y",
+                  "linkCount": 0
+                },
               ],
               "hubLinks": []
             },
-            {
-              "uuid": "6f3ac044b6cb4750b62a4ef0d1d5216b",
-              "name": "HUB网络三",
-              "connectVpe": true,
-              "hubs": [
-                {
-                  "uuid": "1f0d2a3d1a324e148ab41648c59a444a",
-                  "name": "CPE-2",
-                  "RR": true,
-                  "linkCount": 0
-                }
-              ],
-              "hubLinks": []
-            },
-            {
-              "uuid": "6f3ac044b6cb4750b62a4ef0d1d5217b",
-              "name": "HUB网络三",
-              "connectVpe": true,
-              "hubs": [
-                {
-                  "uuid": "1f0d2a3d1a324e148ab41648c59a555a",
-                  "name": "CPE-2",
-                  "RR": true,
-                  "linkCount": 0
-                }
-              ],
-              "hubLinks": []
-            }
           ],
           "externalNetworks": []
         },
