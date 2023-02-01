@@ -9,9 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@antv/g6": "^4.8.4",
+    "axios": "^1.2.6",
+    "mockjs": "^1.1.0",
+    "vite-plugin-mock": "^2.9.6",
     "vue": "^3.2.45"
   },
   "devDependencies": {
+    "@types/mockjs": "^1.0.7",
     "@vitejs/plugin-vue": "^4.0.0",
     "sass": "^1.57.1",
     "unplugin-auto-import": "^0.13.0",

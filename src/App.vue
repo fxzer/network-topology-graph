@@ -1,8 +1,14 @@
-<script setup>
+<script setup lang="ts">
+import TopoGraph from '@/views/topoGraph/index.vue'
 </script>
 
 <template>
- <div> Init Project!</div>
+ <div class="app">
+  <Suspense>
+    <template #default><TopoGraph/></template>
+    <template #fallback>Loading...</template>
+  </Suspense>
+ </div>
 </template>
 
 <style scoped>
