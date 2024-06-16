@@ -8,7 +8,7 @@ export const lightColors = [
   '#BFCFEE',
   '#FFA0C5',
   '#D5FF86',
-];
+]
 export const darkColors = [
   '#7DA8FF',
   '#44E6C1',
@@ -19,7 +19,7 @@ export const darkColors = [
   '#5D7092',
   '#FF6565',
   '#6BFFDE',
-];
+]
 export const uLightColors = [
   '#CFF6FF',
   '#BCFCFF',
@@ -30,7 +30,7 @@ export const uLightColors = [
   '#DCE2EE',
   '#FFE7F0',
   '#EEFFCE',
-];
+]
 export const uDarkColors = [
   '#CADBFF',
   '#A9FFEB',
@@ -41,4 +41,4 @@ export const uDarkColors = [
   '#EBF2FF',
   '#FFCBCB',
   '#CAFFF3',
-];
+]

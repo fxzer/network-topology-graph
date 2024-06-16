@@ -1,149 +1,155 @@
-<template>
-  <div class="topo-legend-wrap"> 
-    <div class="topo-list">
-      <div class="topo-item" v-for="item in legendData" :key="item.name"> 
-          <span class="topo-item-icon iconfont" 
-          :class="item.iconfont" :style="{ color: item.color }"></span>
-          <span class="topo-item-name">{{ item.label }}</span> 
-      </div>
-    </div>
-  </div>
-</template>
-
 <script lang="ts" setup>
 const props = defineProps({
   legendType: {
     type: String,
-    default: 'network'
+    default: 'network',
   },
 })
 const networkLegend = reactive([
   {
-    name: "vpeNet",
-    iconfont: "icon-cloud",
-    color: "#93C0FE",
-    label: "VPE网络",
+    name: 'vpeNet',
+    iconfont: 'icon-cloud',
+    color: '#93C0FE',
+    label: 'VPE网络',
   },
   {
-    name: "extNet",
-    iconfont: "icon-cloud",
-    color: "#FFE4BA",
-    label: "外部网络",
+    name: 'extNet',
+    iconfont: 'icon-cloud',
+    color: '#FFE4BA',
+    label: '外部网络',
   },
   {
-    name: "hubNet",
-    iconfont: "icon-cloud",
-    color: "#ccc",
-    label: "HUB网络",
+    name: 'hubNet',
+    iconfont: 'icon-cloud',
+    color: '#ccc',
+    label: 'HUB网络',
   },
   {
-    name: "vpe",
-    iconfont: "vpe-legend-icon",
-    color: "#C396ED",
-    label: "VPE",
+    name: 'vpe',
+    iconfont: 'vpe-legend-icon',
+    color: '#C396ED',
+    label: 'VPE',
   },
   {
-    name: "hub",
-    iconfont: "icon-routers",
-    color: "#C396ED",
-    label: "HUB",
+    name: 'hub',
+    iconfont: 'icon-routers',
+    color: '#C396ED',
+    label: 'HUB',
   },
 
 ])
 const vpeLegend = reactive([
   {
-    name: "vpe",
-    iconfont: "vpe-legend-icon",
-    color: "#C396ED",
-    label: "VPE",
+    name: 'vpe',
+    iconfont: 'vpe-legend-icon',
+    color: '#C396ED',
+    label: 'VPE',
   },
   {
-    name: "site",
-    iconfont: "icon-custom-site",
-    color: "#E0E0E0",
-    label: "站点",
+    name: 'site',
+    iconfont: 'icon-custom-site',
+    color: '#E0E0E0',
+    label: '站点',
   },
   {
-    name: "hub",
-    iconfont: "icon-routers",
-    color: "#C396ED",
-    label: "HUB",
+    name: 'hub',
+    iconfont: 'icon-routers',
+    color: '#C396ED',
+    label: 'HUB',
   },
   {
-    name: "cpe",
-    iconfont: "icon-router22",
-    color: "#82C0F9",
-    label: "CPE",
+    name: 'cpe',
+    iconfont: 'icon-router22',
+    color: '#82C0F9',
+    label: 'CPE',
   },
   {
-    name: "nomal",
-    iconfont: "link-nomal",
-    color: "#72E672",
-    label: "正常",
+    name: 'nomal',
+    iconfont: 'link-nomal',
+    color: '#72E672',
+    label: '正常',
   },
   {
-    name: "abnomal",
-    iconfont: "link-abnomal",
-    color: "#F45B5B",
-    label: "异常",
+    name: 'abnomal',
+    iconfont: 'link-abnomal',
+    color: '#F45B5B',
+    label: '异常',
   },
   {
-    name: "vpn",
-    iconfont: "vpn-link",
-    color: "#454545",
-    label: "公网链路",
+    name: 'vpn',
+    iconfont: 'vpn-link',
+    color: '#454545',
+    label: '公网链路',
   },
   {
-    name: "mstp",
-    iconfont: "mstp-link",
-    color: "#454545",
-    label: "专线链路",
+    name: 'mstp',
+    iconfont: 'mstp-link',
+    color: '#454545',
+    label: '专线链路',
   },
 ])
 const hubNetLegend = reactive([
   {
-    name: "hub",
-    iconfont: "icon-routers",
-    color: "#C396ED",
-    label: "HUB",
+    name: 'hub',
+    iconfont: 'icon-routers',
+    color: '#C396ED',
+    label: 'HUB',
   },
   {
-    name: "nomal",
-    iconfont: "link-nomal",
-    color: "#72E672",
-    label: "正常",
+    name: 'nomal',
+    iconfont: 'link-nomal',
+    color: '#72E672',
+    label: '正常',
   },
   {
-    name: "abnomal",
-    iconfont: "link-abnomal",
-    color: "#F45B5B",
-    label: "异常",
+    name: 'abnomal',
+    iconfont: 'link-abnomal',
+    color: '#F45B5B',
+    label: '异常',
   },
   {
-    name: "vpn",
-    iconfont: "vpn-link",
-    color: "#454545",
-    label: "公网链路",
+    name: 'vpn',
+    iconfont: 'vpn-link',
+    color: '#454545',
+    label: '公网链路',
   },
   {
-    name: "mstp",
-    iconfont: "mstp-link",
-    color: "#454545",
-    label: "专线链路",
+    name: 'mstp',
+    iconfont: 'mstp-link',
+    color: '#454545',
+    label: '专线链路',
   },
 ])
 const legendData = computed(() => {
   if (props.legendType === 'network') {
     return networkLegend
-  } else if (props.legendType === 'vpe') {
+  }
+  else if (props.legendType === 'vpe') {
     return vpeLegend
-  } else if (props.legendType === 'hubnet') {
+  }
+  else if (props.legendType === 'hubnet') {
     return hubNetLegend
-  } else {
+  }
+  else {
     return vpeLegend.slice(1)
   }
 })
 </script>
+
+<template>
+  <div class="topo-legend-wrap">
+    <div class="topo-list">
+      <div v-for="item in legendData" :key="item.name" class="topo-item">
+        <span
+          class="topo-item-icon iconfont"
+          :class="item.iconfont" :style="{ color: item.color }"
+        />
+        <span class="topo-item-name">{{ item.label }}</span>
+      </div>
+    </div>
+  </div>
+</template>
+
 <style scoped lang='scss'>
 .topo-legend-wrap {
   position: absolute;

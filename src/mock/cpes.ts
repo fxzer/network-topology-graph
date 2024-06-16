@@ -1,5 +1,4 @@
 export default [
- 
   {
     "uuid": "a5777c38580a42e0a367815bd1c2c111",
     "name": "HUB-CPE-11",
