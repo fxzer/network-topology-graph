@@ -5,10 +5,11 @@ import vpe from '@/elements/nodes/vpe'
 import cpe from '@/elements/nodes/cpe'
 import cloud from '@/elements/combos/cloud'
 import extcloud from '@/elements/combos/extcloud'
+
 // 共同节点注册
 export function commonRegister() {
   // 注册实线动画
-  register(ExtensionCategory.EDGE, 'animate-line', animateLine, 'line')
+  // register(ExtensionCategory.EDGE, 'animate-line', animateLine, 'line')
   // 注册HUB节点
   register(ExtensionCategory.NODE, 'iconfontHub', iconfontHub)
   // VPE节点
@@ -17,14 +18,14 @@ export function commonRegister() {
 // 弹窗特有节点注册
 export function dialogRegister() {
   // 注册CPE节点
-  register(ExtensionCategory.NODE, 'iconfontCpe', cpe)
+  // register(ExtensionCategory.NODE, 'iconfontCpe', cpe)
 }
 
 // 网络拓扑总览特有节点注册
 export function viewRegister() {
   // 注册VPE combos
-  register(ExtensionCategory.COMBO, 'cloudCombo', cloud, 'single-combo')
-  register(ExtensionCategory.COMBO, 'cloudComboExt', extcloud, 'single-combo')
+  // register(ExtensionCategory.COMBO, 'cloudCombo', cloud, 'single-combo')
+  // register(ExtensionCategory.COMBO, 'cloudComboExt', extcloud, 'single-combo')
 }
 
 // // 节点文本溢出省略

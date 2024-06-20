@@ -73,7 +73,6 @@ lightColors.forEach((lcolor, i) => {
   unlightColorMap.set(gColors[i], `l(0) 0:${uLightColors[i]} 1:${uDarkColors[i]}`)
 })
 
-let graph
 const layoutCfg = {
   type: 'force',
   nodeSize: (d) => {
@@ -85,7 +84,7 @@ const layoutCfg = {
   preventOverlap: true,
 }
 // 图实例
-graph = new Graph({
+const graph = new Graph({
   container: 'topoGrapth',
   width,
   height,

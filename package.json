@@ -12,14 +12,18 @@
   },
   "dependencies": {
     "@antv/g6": "^5.0.1",
+    "@unocss/reset": "^0.61.0",
     "@vueuse/core": "^10.11.0",
     "vue": "^3.4.28"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.21.1",
+    "@unocss/preset-rem-to-px": "^0.61.0",
     "@vitejs/plugin-vue": "^5.0.5",
     "eslint": "9.4.0",
     "sass": "^1.77.5",
+    "typescript": "^5.4.5",
+    "unocss": "^0.61.0",
     "unplugin-auto-import": "^0.17.6",
     "vite": "^5.3.1"
   }
